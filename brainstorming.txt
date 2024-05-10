@@ -1,0 +1,37 @@
+Name
+Email
+Age
+1. What platform do you primarily use for gaming?:
+    Xbox
+    Playstation
+    PC
+    Nintendo Switch 
+    Other
+2. Which genre of video games do you enjoy the most?
+    Action/Adventure
+    Role-Playing
+    First-Person Shooter
+    Sports
+    Strategy
+    Simulation
+    Puzzle
+    Other (please specify)
+3. How often do you purchase new video games and/or video game content such as skins and dlcs?
+    Daily
+    Weekly
+    Monthly
+    Occasionally
+    Rarely
+    Never
+4. Which factors influence your decisions to purchase a video game?
+    Reviews and ratings
+    Storyline and plot
+    Graphics and visual quality
+    Multiplayer options
+    Price
+    Recommendations from friends or influencers
+    Previous experience with the franchise
+    In-game purchases and microtransactions
+    Other (please specify)
+
+5. What is your favorite video game of all time and why?
