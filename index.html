@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Jonathan's Video Game Survey</h1>
+    <p id="description">Welcome to my video game survey!</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label">Name
+            <input id="name" type="text" placeholder="Enter your name" required>
+        </label>
+        <label id="email-label">Email
+            <input id="email" type="email" placeholder="Enter your email" required>
+        </label>
+        <label id="number-label">Age(optional)
+          <input id="number" type="number" min="1" max="120" placeholder="Age">
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Which genre of video games do you enjoy the most?
+          <select id="dropdown">
+            <option value="">select a genre</option>
+            <option value="1">Action/Adventure</option>
+            <option value="2">Role-Playing</option>
+            <option value="3">First-Person Shooter</option>
+            <option value="4">Sports</option>
+            <option value="5">Strategy</option>
+            <option value="6">Simulation</option>
+            <option value="7">Puzzle</option>
+            <option value="8">Other</option>
+          </select>
+        </label>
+        <legend>How often do you purchase new video games and/or video game content such as skins and dlcs?</legend>
+          <label><input type="radio" name="purchasefreq" class="inline" checked value="Daily" /> Daily</label>
+          <label><input type="radio" name="purchasefreq" class="inline" value="Weekly"/> Weekly</label>
+          <label><input type="radio" name="purchasefreq" class="inline" value="Monthly"/> Monthly</label>
+          <label><input type="radio" name="purchasefreq" class="inline" value="Occasionally"/> Occasionally</label>
+          <label><input type="radio" name="purchasefreq" class="inline" value="Personal"/> Personal</label>
+          <label><input type="radio" name="purchasefreq" class="inline" value="Rarely"/> Rarely</label>
+          <label><input type="radio" name="purchasefreq" class="inline" value="Never" /> Never</label>
+      </fieldset>
+      <fieldset>
+        <label>Which factors influence your decisions to purchase a video game?(check all that apply)</label>
+        <div class="checkbox"><input class="inline" type="checkbox" name="factors" value="Reviews and Ratings"/>Reviews and Ratings</div>
+        <div class="checkbox"><input class="inline" type="checkbox" name="factors" value="Storyline and plot"/>Storyline and plot</div>
+        <div class="checkbox"><input class="inline" type="checkbox" name="factors" value="Graphics and visual quality"/>Graphics and visual quality</div>
+        <div class="checkbox"><input class="inline" type="checkbox" name="factors" value="Multiplayer options"/>Price</iv>
+        <div class="checkbox"><input class="inline" type="checkbox" name="factors" value="Recommendations from friends or influencers"/>Recommendations from friends or influencers</div>
+        <div class="checkbox"><input class="inline" type="checkbox" name="factors" value="Previous experience with the franchise"/>Previous experience with the franchise</div>
+        <div class="checkbox"><input class="inline" type="checkbox" name="factors" value="In-game purchases and microtransactions"/>In-game purchases and microtransactions</div>
+        <div class="checkbox"><input class="inline" type="checkbox" name="factors" value="Other (please specify)"/>Other (please specify)</div>
+      </fieldset>  
+      <label>What is your favorite video game of all time and why?
+        <textarea rows="3" cols="30" placeholder="I like Overwatch 2 because..."></textarea>
+      </label>
+      <input type="submit" value="Submit" id="submit"/> 
+    </form>
+
+  </body>
+</html>
